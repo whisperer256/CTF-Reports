@@ -1,4 +1,4 @@
-# CTF-Report
+# CTF-Reports
 This repository contains resources for learning and practicing report writing for Capture The Flag (CTF) and/or Penetration Testing challenges.
 The goal of this repository is to provide a comprehensive guide in report writing for beginners penetration tester, as well as a resource for more advanced players looking to hone their skills.
 
