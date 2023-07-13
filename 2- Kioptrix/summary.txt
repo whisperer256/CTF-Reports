@@ -1,0 +1,45 @@
+IP Address:
+192.168.49.128
+
+
+Open Ports:
+22			    SSH			    OpenSSH 2.9p2 (protocol 1.99)
+80			    HTTP			Apache httpd 1.3.20 ((Unix)  (Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b)
+111			    RPCBind			2 (RPC #100000)
+139			    NETBIOS			(Samba 2.2.1a)
+443			    HTTPS			    Apache/1.3.20 (Unix)  (Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b
+32768			RPC			1 (RPC #100024)
+8080			HTTP			Apache Tomcat 9.0.7
+
+
+Finding Directories
+80,443
+    /manual/
+	mod/
+	   mod_perl/
+    /icons/
+	small/
+    /usage/
+	usage_202306.html
+	usage_200909.html
+    /mrtg/
+	mrtg.html
+	unix-guide.html
+	nt-guide.html
+	cfgmaker.html
+	indexmaker.html
+	reference.html
+	forum.html
+	contrib.html
+	mrtg-rrd.html
+	logfile.html
+	squid.html
+	webserver.html
+	mibhelp.html
+	faq.html
+
+Potential Vulnerability
+	Apache/mod_sll - OpenLuck - github.com/heltonWernik/OpenLuch
+	Samba (SMB) - exploit/linux/samba/trans2open - Metasploit
+
+
