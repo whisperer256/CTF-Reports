@@ -1,0 +1,73 @@
+From root  Sat Sep 26 11:42:10 2009
+Return-Path: <root@kioptix.level1>
+Received: (from root@localhost)
+	by kioptix.level1 (8.11.6/8.11.6) id n8QFgAZ01831
+	for root@kioptix.level1; Sat, 26 Sep 2009 11:42:10 -0400
+Date: Sat, 26 Sep 2009 11:42:10 -0400
+From: root <root@kioptix.level1>
+Message-Id: <200909261542.n8QFgAZ01831@kioptix.level1>
+To: root@kioptix.level1
+Subject: About Level 2
+Status: O
+
+If you are reading this, you got root. Congratulations.
+Level 2 won't be as easy...
+
+From root  Sat Jun 17 21:30:31 2023
+Return-Path: <root@kioptrix.level1>
+Received: (from root@localhost)
+	by kioptrix.level1 (8.11.6/8.11.6) id 35I1UVm01147
+	for root; Sat, 17 Jun 2023 21:30:31 -0400
+Date: Sat, 17 Jun 2023 21:30:31 -0400
+From: root <root@kioptrix.level1>
+Message-Id: <202306180130.35I1UVm01147@kioptrix.level1>
+To: root@kioptrix.level1
+Subject: LogWatch for kioptrix.level1
+
+
+
+ ################## LogWatch 2.1.1 Begin ##################### 
+
+
+ ###################### LogWatch End ######################### 
+
+From root  Sun Jun 18 04:02:00 2023
+Return-Path: <root@kioptrix.level1>
+Received: (from root@localhost)
+	by kioptrix.level1 (8.11.6/8.11.6) id 35I820t01464
+	for root; Sun, 18 Jun 2023 04:02:00 -0400
+Date: Sun, 18 Jun 2023 04:02:00 -0400
+From: root <root@kioptrix.level1>
+Message-Id: <202306180802.35I820t01464@kioptrix.level1>
+To: root@kioptrix.level1
+Subject: LogWatch for kioptrix.level1
+
+
+
+ ################## LogWatch 2.1.1 Begin ##################### 
+
+
+ ---------------- Connections (secure-log) Begin ------------------- 
+
+**Unmatched Entries**
+Jun 17 22:52:19 kioptrix sshd[764]: Server listening on 0.0.0.0 port 22.
+
+
+ ----------------- Connections (secure-log) End -------------------- 
+
+
+
+ --------------------- SSHD Begin ------------------------ 
+
+**Unmatched Entries**
+Starting sshd:
+ succeeded
+
+
+
+ ---------------------- SSHD End ------------------------- 
+
+
+
+ ###################### LogWatch End ######################### 
+ 

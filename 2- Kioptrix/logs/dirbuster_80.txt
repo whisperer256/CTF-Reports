@@ -1,0 +1,52 @@
+DirBuster 1.0-RC1 - Report
+http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
+Report produced on Fri Jun 23 10:46:37 EDT 2023
+--------------------------------
+
+http://192.168.49.128:80
+--------------------------------
+Directories found during testing:
+
+Dirs found with a 200 response:
+
+/
+/manual/
+/icons/
+/manual/mod/
+/icons/small/
+/usage/
+/mrtg/
+/manual/mod/mod_perl/
+
+Dirs found with a 403 response:
+
+/cgi-bin/
+/doc/
+
+
+--------------------------------
+Files found during testing:
+
+Files found with a 200 responce:
+
+/test.php
+/usage/usage_202306.html
+/usage/usage_200909.html
+/icons/small/README.txt
+/mrtg/mrtg.html
+/mrtg/unix-guide.html
+/mrtg/nt-guide.html
+/mrtg/cfgmaker.html
+/mrtg/indexmaker.html
+/mrtg/reference.html
+/mrtg/forum.html
+/mrtg/contrib.html
+/mrtg/mrtg-rrd.html
+/mrtg/logfile.html
+/mrtg/squid.html
+/mrtg/webserver.html
+/mrtg/mibhelp.html
+/mrtg/faq.html
+
+
+--------------------------------
