@@ -1,5 +1,5 @@
 # About
-This repository is not a walkthrough of Basic Pentesting from [VulnHub](https://www.vulnhub.com/entry/kioptrix-level-1-1,22/).
+This repository is not a walkthrough of Kioptrix from [VulnHub](https://www.vulnhub.com/entry/kioptrix-level-1-1,22/).
 It contains resources for learning and practicing report writing of Capture The Flag (CTF) and/or Penetration Testing challenges.
 The goal of this repository is to provide a comprehensive guide to report writing for beginners, as well as a resource for more advanced players looking to hone their skills.
 
