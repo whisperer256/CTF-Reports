@@ -1,0 +1,63 @@
+172.16.76.128
+
+21 - FTP
+vsftpd 3.0.3 
+
+22 - SSH
+OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+
+80 - HTTP
+    Apache/2.4.38 (Debian)
+    http://172.16.76.128 - Default web page
+    http://172.16.76.128/academy - Online Course Registration
+
+OS Information
+Linux Debian 10 (buster)
+
+Username
+    admin - Web
+    grimmie@localhost - Device
+
+Information Disclosure
+    Anonymous FTP login allowed - FTP
+    Apache/2.4.38 (Debian) - HTTP
+
+404 - Error page
+Information Disclosure
+
+Administrative login
+http://172.16.76.128/academy/admin
+
+Sensitive file exposure
+http://172.16.76.128/academy/admin/db/onlinecourse.sql
+
+Admin Web Credential
+admin:21232f297a57a5a743894a0e4a801fc3  -   admin:admin
+
+MySQL version
+MySQL 5.0.12
+
+DB name
+onlinecourse
+
+Information Disclosure - FTP
+    note.txt
+        10201321:cd73502828457d15655bbd7a63fb0bc8 - 10201321:student
+
+Exploits
+    SQL Injection - Web
+    http://172.16.76.128/academy/
+    http://172.16.76.128/academy/admin/index.php
+
+    Unrestricted File Upload - Web
+    http://172.16.76.128/academy/my-profile.php
+
+    Locale Privilege Escalation
+        grimmie:My_V3ryS3cur3_P4ss
+        /home/grimmie/backup.sh
+
+MySQL authentication
+    grimmie:My_V3ryS3cur3_P4ss
+    pma:pmapass
+
+
