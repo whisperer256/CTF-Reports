@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2022.2.4" exportTime="Tue Aug 09 23:11:52 EDT 2022">
+  <item>
+    <time>Wed Dec 31 19:00:00 EST 1969</time>
+    <url><![CDATA[http://192.168.1.99/academy/admin/index.php]]></url>
+    <host ip="192.168.1.99">192.168.1.99</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/academy/admin/index.php]]></path>
+    <extension>php</extension>
+    <request base64="true"><![CDATA[UE9TVCAvYWNhZGVteS9hZG1pbi9pbmRleC5waHAgSFRUUC8xLjEKSG9zdDogMTkyLjE2OC4xLjk5ClVzZXItQWdlbnQ6IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IHJ2OjkxLjApIEdlY2tv
+LzIwMTAwMTAxIEZpcmVmb3gvOTEuMApBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRt
+bCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LGltYWdlL3dlYnAsKi8qO3E9MC44CkFjY2VwdC1M
+YW5ndWFnZTogZW4tVVMsZW47cT0wLjUKQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlCkNv
+bnRlbnQtVHlwZTogYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkCkNvbnRlbnQtTGVu
+Z3RoOiAzNQpPcmlnaW46IGh0dHA6Ly8xOTIuMTY4LjEuOTkKRE5UOiAxCkNvbm5lY3Rpb246IGNs
+b3NlClJlZmVyZXI6IGh0dHA6Ly8xOTIuMTY4LjEuOTkvYWNhZGVteS9hZG1pbi9pbmRleC5waHAK
+Q29va2llOiBQSFBTRVNTSUQ9MHFsMW0zNGhkdGtxbm8xMGZuYmM3bGVpdnEKVXBncmFkZS1JbnNl
+Y3VyZS1SZXF1ZXN0czogMQpTZWMtR1BDOiAxCgp1c2VybmFtZT11c2VyJnBhc3N3b3JkPXVzZXIm
+c3VibWl0PQoK]]></request>
+    <status></status>
+    <responselength></responselength>
+    <mimetype></mimetype>
+    <response base64="true"></response>
+    <comment></comment>
+  </item>
+</items>
